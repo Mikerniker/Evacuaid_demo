@@ -64,7 +64,7 @@ with col3:
     image_login_path = "images/login_btn.png"
     login_image_base64 = convert_image(image_login_path)
 
-    html = f"<a href='https://evacuaid-demo.streamlit.app/Situation%20Report' target='_self'><img src='data:image/png;base64,{login_image_base64}'  style='border-radius: 30px;'></a>"
+    html = f"<a href='https://evacuaid-demo.streamlit.app/Login' target='_self'><img src='data:image/png;base64,{login_image_base64}'  style='border-radius: 30px;'></a>"
     st.markdown(html, unsafe_allow_html=True)
 
     st.write("Admin Login")
